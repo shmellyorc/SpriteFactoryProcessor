@@ -20,5 +20,5 @@ Process in these steps:
 If you see "unknown" in monogame for .sf files and you have done the steps above. its because you set your own namespace wrong in "Before you start" section.
   
   Other Information:
-    Reason why ".NETStandard 2.0" is required for the classlib is because curernt version of "MonoGame.Framework.Content.Pipeline" only works with net standard not with net5.0. IF you use a net5.0 or new versions, it will copmile but inside the monogame content builder, it will fail.
+    Reason why ".NETStandard 2.0" is required for the classlib is because curernt version of "MonoGame.Framework.Content.Pipeline" only works with net standard not with net5.0. IF you use a net5.0 or new versions, it will compile but inside the monogame content builder, it will fail.
     
