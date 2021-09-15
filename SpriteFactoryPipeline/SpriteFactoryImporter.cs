@@ -9,12 +9,12 @@ namespace StinkyEngine.Pipelines.SpriteFactoryPipeline
     public class SpriteFactoryImporter : ContentImporter<SpriteFactory>
     {
         public override SpriteFactory Import(string filename, ContentImporterContext context)
-		{
-			context.Logger.LogMessage($"Importing Sprite Factory: {filename}");
+	{
+		context.Logger.LogMessage($"Importing Sprite Factory: {filename}");
 
-			var data = File.ReadAllText(filename);
-			return JsonConvert.DeserializeObject<SpriteFactory>(data);
-		}
+		var data = File.ReadAllText(filename);
+		return JsonConvert.DeserializeObject<SpriteFactory>(data);
+	}
     }
 }
 
